@@ -15,37 +15,37 @@ const Archive = () => {
                 whileInView={{opacity:1}}
                  transition={{delay:0.1}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="A Travel and Tour Website"
+            desc="Search tourist destinations in Nigeria and place booking for travel to explore chosen destination."
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["Html","CSS", "Javascript"]}/>
             </motion.div>
             <motion.div  initial={{opacity:0}}
                 whileInView={{opacity:1}}
                  transition={{delay:0.2}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="A Task Tracker App"
+            desc="Create,Update and Delete upcoming task with a running timer and reminder against each task."
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["React-Native"]}/>
             </motion.div>
             <motion.div  initial={{opacity:0}}
                 whileInView={{opacity:1}}
                  transition={{delay:0.1}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="A Landing Page"
+            desc="Responsive landing page for an Agro-consultancy platform."
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["Html,Tailwind-css"]}/>
             </motion.div>
             <motion.div  initial={{opacity:0}}
                 whileInView={{opacity:1}}
                  transition={{delay:0.2}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="Car Listing App"
+            desc="Find book, rent a car"
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["Next.js","Rapidapi",]}/>
             </motion.div>
             
 
@@ -57,19 +57,19 @@ const Archive = () => {
                 whileInView={{opacity:1}}
                  transition={{delay:0.5}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="ai Article Summarizer"
+            desc="copy article link, paste in the space specified and it will be summarized "
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["Rapidapi", "Vite","reduxjs/toolkit"]}/>
             </motion.div>
             <motion.div  initial={{opacity:0}}
                 whileInView={{opacity:1}}
                  transition={{delay:0.6}}>
             <ArchiveCard
-            title="An English Learning Platform"
-            desc="descnvnjnjvjnv Lorem ipsum jknenj ksejnejnoe"
+            title="Ai Saas Website"
+            desc="Generate, Design and Customize T-Shirts with ai"
             link="https//goojkflkvkv"
-            listItem={["React","get.io", "firebase"]}/>
+            listItem={["Mongodb","Next.js"]}/>
             </motion.div>
               
               </>
