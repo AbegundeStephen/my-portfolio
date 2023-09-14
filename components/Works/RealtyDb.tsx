@@ -18,8 +18,8 @@ the browsing experience for potential clients.
         <li className="text-base flex gap-2 text-textDark">
           <span className=" mt-1 text-textGreen"><TiArrowForward/></span>
           Worked closely with cross-functional teams, including designers and
-          marketing, to align development efforts with the company's
-          branding and marketing strategies.
+          marketing, to align development efforts with the branding of the company
+         = and marketing strategies.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className=" mt-1 text-textGreen"><TiArrowForward/></span>
