@@ -13,8 +13,8 @@ const ArchiveCard = ({title,desc,link,listItem}: Props) => {
    <a href={link}>
      <div className='w-full h-80 p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group rounded-lg bg-[#112249]'>
         <div className='flex  justify-between items-center'>
-            <FaRegFolder data-tooltip-target='tooltip-hover' data-tooltip-trigger='hover' className=" text-4xl text-textLight hover:text-purple-500"/>
-            <RxOpenInNewWindow className=" text-4xl hover:text-red-600 text-textLight" />
+            <FaRegFolder data-tooltip-target='tooltip-hover' data-tooltip-trigger='hover' className=" text-4xl text-textLight sm:text-purple-500 mdl:hover:text-purple-500"/>
+            <RxOpenInNewWindow className=" text-4xl mdl:hover:text-red-600 text-textLight sm:text-orange-600" />
         </div>
         <div>
         <h2 className='text-xl font-titleFont font-semibold tracking-wide
