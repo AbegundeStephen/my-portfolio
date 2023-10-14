@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 const Archive = () => {
   const [showMore, setshowMore] = useState(false)
   return (
-    <div className='max-w-containerxxs mx-auto px-4 py-24'>
+    <div className='max-w-containerxs mx-auto px-4 py-24'>
         <div className='w-full flex flex-col items-center'>
             <h2 className='text-3xl font-titleFont text-textDark font-semibold'>Other Projects</h2>
             
@@ -47,21 +47,6 @@ const Archive = () => {
             link="https//goojkflkvkv"
             listItem={["Next.js","Rapidapi",]}/>
             </motion.div>
-            
-
-            {
-            showMore && (
-              <>
-             
-              <motion.div  initial={{opacity:0}}
-                whileInView={{opacity:1}}
-                 transition={{delay:0.5}}>
-            <ArchiveCard
-            title="ai Article Summarizer"
-            desc="copy article link, paste in the space specified and it will be summarized "
-            link="https//goojkflkvkv"
-            listItem={["Rapidapi", "Vite","reduxjs/toolkit"]}/>
-            </motion.div>
             <motion.div  initial={{opacity:0}}
                 whileInView={{opacity:1}}
                  transition={{delay:0.6}}>
@@ -71,6 +56,20 @@ const Archive = () => {
             link="https//goojkflkvkv"
             listItem={["Mongodb","Next.js"]}/>
             </motion.div>
+            
+
+            {
+            showMore && (
+              <>
+            {/* <motion.div  initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                 transition={{delay:0.6}}>
+            <ArchiveCard
+            title="Ai Saas Website"
+            desc="Generate, Design and Customize T-Shirts with ai"
+            link="https//goojkflkvkv"
+            listItem={["Mongodb","Next.js"]}/>
+            </motion.div> */}
               
               </>
             )}

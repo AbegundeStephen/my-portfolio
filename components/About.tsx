@@ -75,7 +75,7 @@ const About = () => {
             <div className='w-full absolute h-80 -left-6 -top-6 rounded-lg bg-white '>
             <div className='w-full h-full relative mdl:pl-0 z-20 flex pl-6 '>
             <Image src={profileImage} alt="profileImage" className="object-cover rounded-lg h-80"/>
-            <div className='hidden mdl:inline-block absolute w-full h-80 bg-textGreen/20
+            <div className='mdl:inline-block absolute w-full h-80 bg-textGreen/60
           rounded-md top-0 left-0 group-hover:bg-transparent duration-300'>
            </div>
             </div>
