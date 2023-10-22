@@ -34,8 +34,8 @@ const Experience = () => {
 
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
-        <li onClick={handleFrontend} className={`${frontend? "border-l-textGreen text-textGreen": "border-l-textDark text-textDark"} border-l-2  bg-transparent  text-textDark hover:bg-[#112240] cursor-pointer duration-300 font-medium py-3 text-sm px-8`}>Frontend Development</li>
-          <li onClick={handleBackend} className={`${backend? "border-l-textGreen text-textGreen": "border-l-textDark text-textDark"} border-l-2  bg-transparent  text-textDark hover:bg-[#112240] cursor-pointer duration-300 font-medium py-3 text-sm px-8`}>Backend Development</li>
+        <li onClick={handleFrontend} className={`${frontend? "border-l-green-800 text-green-800": "border-l-textDark text-textDark"} border-l-2  bg-transparent  text-textDark hover:bg-[#112240] cursor-pointer duration-300 font-medium py-3 text-sm px-8`}>Frontend Development</li>
+          <li onClick={handleBackend} className={`${backend? "border-l-green-800 text-green-800": "border-l-textDark text-textDark"} border-l-2  bg-transparent  text-textDark hover:bg-[#112240] cursor-pointer duration-300 font-medium py-3 text-sm px-8`}>Backend Development</li>
           {/* <li onClick={handleDatabases} className={`${databases? "border-l-textGreen text-textGreen": "border-l-textDark text-textDark"} border-l-2  bg-transparent  text-textDark hover:bg-[#112240] cursor-pointer duration-300 font-medium py-3 text-sm px-8`}>Databases</li>
            */}
        </ul>
@@ -47,4 +47,4 @@ const Experience = () => {
   )
 }
 
-export default Experience 
+export default Experience ;

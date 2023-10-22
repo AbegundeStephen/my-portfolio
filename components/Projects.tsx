@@ -3,10 +3,16 @@ import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import {RxOpenInNewWindow} from 'react-icons/rx'
+import { createRef } from "react";
+
+interface Props {
+  ref: typeof createRef;
+}
 
 const Projects = () => {
   return (
-    <section id='projects' className='max-w-container mx-auto mdl:px-20 py-24'>
+    <section id="project"
+    className='max-w-container mx-auto mdl:px-20 py-24'>
        <SectionTitle title="Featured Projects"/>
       <div className="w-full flex justify-between gap-16 mt-10 flex-col items-center">
 
@@ -83,7 +89,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        </div>age
+        </div>
         
         <div></div>
        </div>
