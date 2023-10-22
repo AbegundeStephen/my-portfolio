@@ -1,4 +1,4 @@
-import {stockUp,project4 ,eduPro ,chat,gpt, article} from "@/public/assets";
+import {stockUp,project4,chat,gpt, article, infoHub} from "@/public/assets";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
@@ -53,34 +53,37 @@ const Projects = () => {
             <a href="https://github.com/AbegundeStephen/shop" target="_blank" className="
             w-full lg:w-1/2 h-auto relative group">
             <div>
-                <Image src={eduPro} alt="" className="w-[80vw] h-full object-cover"/>
+                <Image src={infoHub} alt="" className="w-[80vw] h-full object-cover"/>
             </div>
             </a>
            <div className="w-full lgl:w-1/2 items-end text-right lg:-ml-16 z-10 flex flex-col gap-6 ">
          
-          <h3 className="text-2xl font-bold text-textDark">eduPro</h3>
+          <h3 className="text-2xl font-bold text-textDark">Info-Hub</h3>
           <p className="text-sm md:text-base p-2 md:p-6 rounded-md text-textLight bg-[#112240]">
-          This is an Education Consulting Platform with the infusion of Blogging capabilites, 
-          a one stop destination for latest school gists and related news. Any user who has signed-up
-          or logged in can create articles for others to read. Also, readers can like or comment on any article.
+             An informative platform where you can find helpful tips,how tos and many other reasonable contents.
+             Supabase was used as an alternative to firebase to handle data storage,contentlayer to structure 
+             and dynamically display content to users,Next.js handles the frontend while taillwindcss was used for styling.;
+             
+
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
             
-            <li>Firebase</li>
-            <li>React</li>
-            <li>Bootsrap5</li>
+            <li>Supabase</li>
+            <li>Next.js</li>
+            <li>Contentlayer</li>
+            <li>Tailwindcss</li>
                      
           </ul>
           <div className="text-2xl flex gap-4">
-            <a className="hover:text-textGreen text-textLight duration-300" href="https://github.com/AbegundeStephen/shop" target="_blank">
-              <TbBrandGithub/>
+            <a className="hover:text-red-500 text-purple-600 duration-300" href="https://github.com/AbegundeStephen/shop" target="_blank">
+              <TbBrandGithub onClick={() => window.open("https://github.com/AbegundeStephen/infoHub")}  target="_blank"/>
             </a>
-            <a className="hover:text-textGreen text-textLight duration-300" href="https://github.com/AbegundeStephen/shop" target="_blank">
-              <RxOpenInNewWindow/>
+            <a className="hover:text-red-500 text-red-500 duration-300" href="https://github.com/AbegundeStephen/shop" target="_blank">
+              <RxOpenInNewWindow onClick={() => window.open("https://info-hub-gold.vercel.app/")} target="_blank"/>
             </a>
           </div>
         </div>
-        </div>
+        </div>age
         
         <div></div>
        </div>
