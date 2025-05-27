@@ -32,8 +32,6 @@ export default function Home() {
         <Footer/>
       
       </div>
-     
-  
       <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.5}}  className="hidden md:inline-flex w-32 h-1/4 fixed right-0 bottom-0" ><RightSide/></motion.div>
     </div>
     </main>

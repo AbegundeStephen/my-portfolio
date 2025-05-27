@@ -69,15 +69,7 @@ const Navbar = () => {
                   </motion.li>
                 </Link>
             </ul>
-           <a href="/assets/ABEGUNDE_CV.pdf" target='_blank'>
-           <motion.button
-            className='px-4 py-2 rounded-md text-textDark text-{13px} hover:bg-orange-800  border-2 border-violet-700 hover:bg-hoverColor duration-300 uppercase'
-              initial={{opacity:0}}
-              animate={{opacity:1}} 
-              transition={{duration:0.5}}>
-                Resume
-            </motion.button>
-           </a>
+        
         </div>
         {/* Small icon */}
         <div onClick={() => setShowmenu(!showMenu)} className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
